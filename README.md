@@ -1,3 +1,4 @@
+![React-App](https://github.com/shivamdwivedi1511/counter-app/assets/39148476/41acace4-807d-494f-a072-24d5f168dd91)
 # React Counter App
 
 This is a simple React-based counter application that allows users to perform basic counter operations. The application is built using React, a popular JavaScript library for building user interfaces.
