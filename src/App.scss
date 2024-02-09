@@ -1,0 +1,91 @@
+* {
+  font-size: 16px;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+  h1 {
+    color: transparent;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      94deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(195, 1, 255, 1) 35%,
+      rgba(0, 247, 230, 1) 100%
+    );
+    background-clip: text;
+    text-transform: uppercase;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+      background-color: white;
+      height: 400px;
+      width: 300px;
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .counter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75%;
+        border-radius: 8px;
+        background: linear-gradient(
+          94deg,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(195, 1, 255, 1) 35%,
+          rgba(0, 247, 230, 1) 100%
+        );
+        span {
+          background-color: transparent;
+          font-size: 36px;
+        }
+      }
+      .buttons {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        button {
+          color: grey;
+          border-radius: 8px;
+          padding: 16px;
+          border-color: transparent;
+          border: 1px solid transparent;
+          &:hover:enabled {
+            background-color: white;
+            border-color: #80808063;
+            transition: 0.1s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0px #fff, 0 0 1px #fff, 0 0 2px #e60073, 0 0 3px #e60073,
+      0 0 4px #e60073, 0 0 5px #e60073, 0 0 0px #e60073;
+  }
+  to {
+    text-shadow: 0 0 1px #fff, 0 0 2px #ff4da6, 0 0 3px #ff4da6, 0 0 4px #ff4da6,
+      0 0 5px #ff4da6, 0 0 30px #ff4da6, 0 0 0px #ff4da6;
+  }
+}
