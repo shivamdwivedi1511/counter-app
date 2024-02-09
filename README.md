@@ -8,6 +8,11 @@ This is a simple React-based counter application that allows users to perform ba
 - Increment: Increase the counter value by 1.
 - Decrement: Decrease the counter value by 1.
 - Reset: Set the counter value back to 0.
+  
+- ## Live Demo
+
+Explore the live demo of the application: [React Counter App Demo](https://shivam-counter-application.netlify.app/)
+
 
 ## Getting Started
 
