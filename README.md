@@ -25,13 +25,13 @@ Explore the live demo of the application: [React Counter App Demo](https://shiva
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/react-counter-app.git
+    git clone https://github.com/shivamdwivedi1511/counter-app.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd react-counter-app
+    cd counter-app
     ```
 
 3. Install dependencies:
